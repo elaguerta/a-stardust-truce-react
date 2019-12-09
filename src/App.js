@@ -15,8 +15,8 @@ function App() {
         <NavigationBar />
         <Switch>
           <Route exact path='/'><Home /></Route>
-          <Route exact path='/'><Login /></Route> //show this only when the user is not logged in
-          <Route exact path='/'><Signup /></Route> //show this only when the user is not logged in
+          <Route exact path='/login'><Login /></Route> //show this only when the user is not logged in
+          <Route exact path='/signup'><Signup /></Route> //show this only when the user is not logged in
         </Switch>
       </Router>
     </div>
